@@ -1,0 +1,80 @@
+body {
+    background: url("/img/bg.png") #eee;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+}
+
+.container {
+    background: #fff;
+    width: 980px;
+    margin: 0 auto;
+    padding: 10px 10px 24px;
+    border-radius: 5px;
+    min-height: 800px;
+    position: relative;
+    box-shadow: 0 1px 5px #bbb;
+}
+
+header {
+    width: 980px;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 2px 0 4px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    padding: 5px;
+    font-size: 11px;
+}
+
+.search_left, .search_right {
+    width: 350px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.search_left input {
+    width: 180px;
+}
+
+.search_input_block > div {
+   display: inline-block;
+   padding: 12px 5px;
+}
+.search_input_block > .title {
+   width: 100px;
+}
+
+.search_right select {
+    margin: 8px 20px 0 0;
+    height: 165px;
+}
+
+.cm_standard_header {
+    background: #f1f1f1;
+    padding: 4px 10px;
+    margin-top: 20px;
+}
+.cm_standard_header * {
+    padding: 0;
+    margin: 0;
+}
+
+.results_table {
+    margin-top: 10px;
+    font-size: 12px;
+    width: 100%;
+}
+.results_table tr > *{
+    border: 0;
+    border-bottom: 1px solid #dadada;
+    text-align: left;
+}
+
+.no_search_results {
+    padding: 10px;
+    color: #999;
+}
